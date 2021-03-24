@@ -47,7 +47,7 @@ usage: synth_mgx_mtx.py [-h] [--n-bugs N_BUGS] [--n-samples N_SAMPLES]
                         [--spike-exp SPIKE_EXP]
                         [--spike-exp-strength SPIKE_EXP_STRENGTH]
                         hmp site basename
-                        ```
+```
 
 # Outputs
 
@@ -55,15 +55,15 @@ A given run produces the following files:
 
 - `<basename>.bug_abunds.tsv`
   - contains species x sample MGX count data
-- `<basename>.mgx_abunds.tsv
+- `<basename>.mgx_abunds.tsv`
   - contains gene x sample MGX count data 
-- `<basename>.mgx_abunds_groups.tsv
+- `<basename>.mgx_abunds_groups.tsv`
   - contains gene x sample MGX count data, summed over gene families 
-- `<basename>.mtx_abunds.tsv
+- `<basename>.mtx_abunds.tsv`
   - contains gene x sample MTX count data
-- `<basename>.mtx_abunds_groups.tsv
+- `<basename>.mtx_abunds_groups.tsv`
   - contains gene x sample MTX count data, summed over gene families
-- `<basename>.*_spiked.tsv
+- `<basename>.*_spiked.tsv`
   - zero or more lists of spiked features
 
 # Doit Workflow
