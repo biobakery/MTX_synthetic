@@ -1,0 +1,38 @@
+usage: synth_mgx_mtx.py [-h] [--n-bugs N_BUGS] [--n-samples N_SAMPLES]
+                        [--n-groups N_GROUPS] [--n-pangenes N_PANGENES]
+                        [--coreness CORENESS]
+                        [--dna-read-depth DNA_READ_DEPTH DNA_READ_DEPTH]
+                        [--rna-read-depth RNA_READ_DEPTH RNA_READ_DEPTH]
+                        [--spike-dep]
+                        [--spike-dep-strength SPIKE_DEP_STRENGTH]
+                        [--spike-groups] [--spike-bug SPIKE_BUG]
+                        [--spike-bug-strength SPIKE_BUG_STRENGTH]
+                        [--spike-enc SPIKE_ENC]
+                        [--spike-enc-strength SPIKE_ENC_STRENGTH]
+                        [--spike-exp SPIKE_EXP]
+                        [--spike-exp-strength SPIKE_EXP_STRENGTH]
+                        hmp site basename
+
+positional arguments:
+  hmp
+  site
+  basename
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --n-bugs N_BUGS
+  --n-samples N_SAMPLES
+  --n-groups N_GROUPS
+  --n-pangenes N_PANGENES
+  --coreness CORENESS
+  --dna-read-depth DNA_READ_DEPTH DNA_READ_DEPTH
+  --rna-read-depth RNA_READ_DEPTH RNA_READ_DEPTH
+  --spike-dep
+  --spike-dep-strength SPIKE_DEP_STRENGTH
+  --spike-groups
+  --spike-bug SPIKE_BUG
+  --spike-bug-strength SPIKE_BUG_STRENGTH
+  --spike-enc SPIKE_ENC
+  --spike-enc-strength SPIKE_ENC_STRENGTH
+  --spike-exp SPIKE_EXP
+  --spike-exp-strength SPIKE_EXP_STRENGTH
